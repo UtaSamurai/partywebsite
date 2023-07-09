@@ -1,0 +1,271 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color:rgba(0, 0, 0, 0.861);
+  border-top: 5px solid lightskyblue;
+  border-bottom: 5px solid lightskyblue;
+}
+
+h1{
+  color: lightskyblue;
+  text-align: center;
+  font-size: 40px;
+}
+
+.header ul li{
+  color: lightskyblue;
+  width: 90%;
+  text-align: center;
+  border-right: 1px solid #ddd ;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  list-style:none;
+}s
+
+.header ul li:first-child{
+  border-left: 1px solid #ddd ;
+}
+
+.header ul{
+  display: flex;
+  padding-left:0;
+}
+
+.header ul li a{
+  display: block;
+  text-decoration: none;
+  color: lightskyblue;
+  
+}
+
+.top img{
+  width: 100%;
+}
+
+.main{
+  margin-top: 200px;
+  color: #ddd;
+}
+.main h2{
+  text-align: center;
+  font-size: 26px;
+}
+
+.main .service_block{
+  display: flex;
+  justify-content: space-between; 
+  padding-left: 200px;
+  padding-right: 200px; 
+  text-align: center;
+  margin-top: 85px; 
+  
+  
+}
+
+.main .service_block .service img{
+  width: 180px;
+  margin-bottom: 25px;
+}
+
+.main .service .ttl{
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #ddd;
+}
+.main .service .explain{
+ margin-bottom: 20px;
+  text-align: center;
+  color: #ddd;
+}
+.main .service a {
+  background: skyblue;
+  color: rgba(0, 0, 0, 0.861);
+  padding: 15px 20px 12px;
+  text-align: center;
+}
+
+.details{
+  margin-top: 200px;
+  color: #ddd;
+}
+.details h3{
+  text-align: center;
+  font-size: 26px;
+}
+.details_contents{
+  margin-top: 70px;
+}
+.details_contents .aaa{
+  font-size: 22px;
+  text-decoration: underline 2px;
+  margin-left: 80px;
+}
+.details_contents .bbb{
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  margin-left: 85px;
+}
+.details_contents .ccc{
+  margin-top: 120px;
+  margin-left: 90px;
+ font-size: 20px;
+}
+.details_contents .ddd{
+  margin-top: 30px;
+  margin-left: 95px;
+  font-size: 19px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+h5{
+  font-size: 25px;
+}
+
+h6{
+  font-size: 25px;
+} 
+
+p{
+  margin-top: 10px;
+}
+
+ul.ddd li{
+  margin-bottom: 10px;
+}
+
+.contact {
+  width: 500px;
+  margin: 0 auto;
+  padding: 60px 0;
+  margin-top: 100px;
+  padding-bottom: 10px;
+  color: #ddd;
+}
+
+.contact-ttl {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom:20px;
+  text-align: center;
+}
+
+.contact-table {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+.contact-item,
+.contact-body {
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.contact-item {
+  text-align: left;
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.861);
+
+}
+
+.contact-body {
+  width: 70%;
+}
+
+.form-text {
+  width: 95%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  max-width: 400px;
+  background-color: rgba(0, 0, 0, 0.861);
+  color: #ddd;
+}
+
+.contact-sex + .contact-sex {
+  margin-left: 10px;
+}
+
+.contact-sex-txt {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.form-select {
+  width: 180px;
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-skill {
+  display: block;
+}
+
+.contact-skill + .contact-skill {
+  margin-top: 10px;
+}
+
+.contact-skill-txt {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.form-textarea {
+  width: 95%;
+  padding: 10px;
+  height: 130px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: rgba(0, 0, 0, 0.861);
+  color: #ddd;
+}
+
+.contact-submit {
+  width: 250px;
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 100vh;
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+/* h11 {
+  color: skyblue;
+}
+h12{
+  color: whitesmoke;
+}
+h13{
+  color: whitesmoke;
+}
+.information p{
+  color: whitesmoke;
+} */
+
+.information{
+  color: #ddd;
+}
